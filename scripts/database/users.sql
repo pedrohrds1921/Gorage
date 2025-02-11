@@ -7,6 +7,5 @@ CREATE TABLE users(
     modifield_at TIMESTAMP NOT NULL,
     deleted BOOL NOT NULL DEFAULT false,
     last_login TIMESTAMP DEFAULT current_timestamp,
-    PRIMARY KEY(id),
-
+    PRIMARY KEY(id)
 )

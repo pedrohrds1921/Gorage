@@ -8,6 +8,6 @@ CREATE TABLE IF NOT EXISTS folders(
     PRIMARY KEY(id),
     CONSTRAINT fk_parent
         FOREIGN KEY(parent_id)
-        REFERENCES folders(id),
+        REFERENCES folders(id)
 
 )

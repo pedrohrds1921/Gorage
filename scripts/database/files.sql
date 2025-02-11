@@ -13,6 +13,6 @@ CREATE TABLE files(
         FOREIGN KEY(folder_id)
         REFERENCES folders(id),
     CONSTRAINT fk_owner
-        FOREIGN KEY(owber_id)
-        REFERENCES users(id),
+        FOREIGN KEY(owner_id)
+        REFERENCES users(id)
 )
